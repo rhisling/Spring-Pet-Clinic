@@ -67,6 +67,8 @@ public class DataLoader implements CommandLineRunner {
         owner1.setCity("Miami");
         owner1.setTelephone("657392920");
 
+
+
         ownerService.save(owner1);
 
         Pet mikesPet = new Pet();
